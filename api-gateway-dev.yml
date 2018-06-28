@@ -3,8 +3,8 @@ zuul:
     # 自定义路由的地址
     product-server: /myProduct/**
   # 禁止路由的url
-  ignored-patterns:
-    - /**/person/print
+  #ignored-patterns:
+   # - /**/person/print
 spring:
   rabbitmq:
     host: 47.104.211.18
