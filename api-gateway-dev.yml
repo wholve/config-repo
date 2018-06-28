@@ -5,3 +5,14 @@ zuul:
   # 禁止路由的url
   ignored-patterns:
     - /**/person/print
+
+#zuul:
+#  routes: 
+#    abc:
+#      path: /myProduct/**
+#      serviceId: product-server
+#      # 开放传递cookie
+#      sensitiveHeaders:
+#management:
+#  security:
+#    enabled: false
