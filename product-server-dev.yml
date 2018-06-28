@@ -8,6 +8,11 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
+  rabbitmq:
+    host: 47.104.211.18
+    port: 5672
+    username: wholve
+    password: wholve
 env:
   dev11221
 person:
