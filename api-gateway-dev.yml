@@ -5,6 +5,12 @@ zuul:
   # 禁止路由的url
   ignored-patterns:
     - /**/person/print
+spring:
+  rabbitmq:
+    host: 47.104.211.18
+    port: 5672
+    username: wholve
+    password: wholve
 
 #zuul:
 #  routes: 
