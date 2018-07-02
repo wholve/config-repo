@@ -1,4 +1,6 @@
 zuul:
+  # 忽略所有项目服务的敏感头信息（注入）
+  sensitive-headers: 
   routes:
     # 自定义路由的地址
     product-server: /myProduct/**
