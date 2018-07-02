@@ -1,0 +1,7 @@
+zuul:
+  routes:
+    # 自定义路由的地址
+    user-server: /myUser/**
+  # 禁止路由的url
+  #ignored-patterns:
+   # - /**/person/print
